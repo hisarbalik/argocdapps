@@ -5,7 +5,7 @@ metadata:
 spec:
   input:
     prometheus:
-      enabled: false
+      enabled: true
     istio:
       enabled: false
     runtime:
