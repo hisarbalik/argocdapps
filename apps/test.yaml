@@ -3,13 +3,6 @@ kind: MetricPipeline
 metadata:
   name: sap-cloud-logging
 spec:
-  input:
-    prometheus:
-      enabled: false
-    istio:
-      enabled: false
-    runtime:
-      enabled: false
   output:
     otlp:
       endpoint:
