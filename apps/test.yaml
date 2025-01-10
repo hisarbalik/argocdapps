@@ -5,11 +5,11 @@ metadata:
 spec:
   input:
     prometheus:
-      enabled: false
+      enabled: true
     istio:
-      enabled: false
+      enabled: true
     runtime:
-      enabled: false
+      enabled: true
   output:
     otlp:
       endpoint:
