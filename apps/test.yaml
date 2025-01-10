@@ -3,6 +3,9 @@ kind: MetricPipeline
 metadata:
   name: sap-cloud-logging
 spec:
+  input:
+    prometheus:
+      enabled: true
   output:
     otlp:
       endpoint:
