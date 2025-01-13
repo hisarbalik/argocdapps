@@ -6,6 +6,8 @@ spec:
   input:
     runtime:
       enabled: false
+    promethues:
+      enabled: false
   output:
     otlp:
       endpoint:
