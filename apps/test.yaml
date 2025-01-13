@@ -5,9 +5,9 @@ metadata:
 spec:
   input:
     runtime:
-      enabled: true
-    prometheus:
       enabled: false
+    prometheus:
+      enabled: true
   output:
     otlp:
       endpoint:
