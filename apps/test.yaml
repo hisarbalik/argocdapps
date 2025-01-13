@@ -6,7 +6,7 @@ spec:
   input:
     runtime:
       enabled: false
-    promethues:
+    prometheus:
       enabled: true
   output:
     otlp:
