@@ -4,7 +4,7 @@ metadata:
   name: sap-cloud-logging
 spec:
   input:
-    prometheus:
+    runtime:
       enabled: false
   output:
     otlp:
